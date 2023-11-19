@@ -1,11 +1,11 @@
-import express from 'express';
-import { createSSRApp } from 'vue';
-import { renderToString } from 'vue/server-renderer';
+import express from 'express'
+import { createSSRApp } from 'vue'
+import { renderToString } from 'vue/server-renderer'
 
 import App from './App.js'
 import router from './router/index.js'
 
-const server = express();
+const server = express()
 
 // Set up the route to render the Vue.js application
 server.get(['/', '/about'], async (req, res) => {
@@ -34,12 +34,12 @@ server.get(['/', '/about'], async (req, res) => {
     console.error(error)
     res.status(500).send('Internal server error')
   }
-});
+})
 
 server.use(express.static('./dist'))
 
 // Start the Express.js server
-const port = 3000;
+const port = 3000
 server.listen(port, () => {
-  console.log(`Server started on port ${port}`);
-});
+  console.log(`Server started on port ${port}`)
+})
