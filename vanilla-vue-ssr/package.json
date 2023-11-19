@@ -9,7 +9,9 @@
     "preview": "vite preview",
     "test:unit": "vitest",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
-    "format": "prettier --write src/"
+    "format": "prettier --write src/",
+    "serve": "node src/server.js",
+    "render": "node src/ssr.js"
   },
   "dependencies": {
     "express": "^4.18.2",

@@ -2,9 +2,7 @@ import WelcomeItem from './WelcomeItem.js';
 
 const template = `
   <WelcomeItem>
-    <template #icon>
-      ICON
-    </template>
+    <template #icon>&starf;</template>
     <template #heading>Documentation</template>
 
     Vue’s
@@ -13,9 +11,7 @@ const template = `
   </WelcomeItem>
 
   <WelcomeItem>
-    <template #icon>
-      ICON
-    </template>
+    <template #icon>&starf;</template>
     <template #heading>Tooling</template>
 
     This project is served and bundled with
@@ -35,9 +31,7 @@ const template = `
   </WelcomeItem>
 
   <WelcomeItem>
-    <template #icon>
-      ICON
-    </template>
+    <template #icon>&starf;</template>
     <template #heading>Ecosystem</template>
 
     Get official tools and libraries for your project:
@@ -51,9 +45,7 @@ const template = `
   </WelcomeItem>
 
   <WelcomeItem>
-    <template #icon>
-      ICON
-    </template>
+    <template #icon>&starf;</template>
     <template #heading>Community</template>
 
     Got stuck? Ask your question on
@@ -69,9 +61,7 @@ const template = `
   </WelcomeItem>
 
   <WelcomeItem>
-    <template #icon>
-      ICON
-    </template>
+    <template #icon>&starf;</template>
     <template #heading>Support Vue</template>
 
     As an independent project, Vue relies on community backing for its sustainability. You can help
